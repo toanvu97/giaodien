@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 13px;
+	background: #f3f3ed;
+}
+#menu ul{
+	list-style-type: none;
+	background:  #006cc7;
+}
+#menu ul li{
+	
+	display:  inline-table;
+	height: 40px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	position: relative;
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+#menu ul li a:hover{
+	background: #265780;
+}
+#menu ul li > .menu1{
+	display: none;
+	position: absolute;
+}
+#menu ul li:hover .menu1{
+	display: block;
+}
+.mot{
+	color: #0069c2;
+}
+.ba{
+	color: #0069c2;
+}
+#content{
+	background: #504848;
+	width: 100%;
+	height: 240px;
+}
+#TaiKhoan{
+	width: 100%;
+	height: 30px;
+	background: #0069c2;
+	color: white;
+	line-height: 30px;
+	padding-left: 10px;
+	border-radius: 8px 8px 0px 0px;
+}
+#chatcontainer{
+	width: 100%;
+	height: 320px;
+	background: #d2d1cf;
+}
+#truc{
+	width: 70px;
+	height: 20px;
+	background: red;
+	color: white;
+	border-radius: 4px 4px 4px 4px;
+	line-height: 20px;
+
+}
+input[type=text]{
+	width: 100%;
+	border-radius: 0px 0px 5px 5px;
+}
